@@ -1,0 +1,45 @@
+Judul Perbandingan Compiler, Interpreter, Dan Hybrid
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Compiler Kelemahan Dan Kelebihannya
+
+Kelebihannya
+-bisa langsung dijalankan
+-lebih cepat
+-source code tidak terlihat
+
+Kelemahannya
+-tidak lintas platform(sistem operasi)
+-tidak fleksibel(harus mengcompile ulang jika ada yang ingin dirubah atau terjadi kesalahan pada source code)
+-diperlukan langkah tambahan(mengcompile source code menjadi file executable)
+
+Bahasa-bahasa Pemograman Yang Biasanya Memakai Compiler
+[C, C++, Objective-C, .....]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Interpreter Kelemahan Dan Kelebihannya
+
+Kelebihannya
+-lintas platform(tidak memperdulikan sistem operasi user, salama interpreternya ada maka source code bisa dijalankan)
+-fleksibel(tidak perlu mengcompile source code, jadi lebih mudah untuk dimodifikasi atau dirubah)
+-mudah untuk diuji(lebih mudah mencari kesalahan pada source code)
+
+Kelemahannya
+-butuh interpreter(tools tambahan)
+-lebih lambat(karna perlu interpretasi terlebih dahulu)
+-source code mudah diakses(lebih mudah dicopy orang lain)
+
+Bahasa-bahasa Pemograman Yang Biasanya Memakai Interpreter
+[Javascript, PHP, .....]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hybrid Menggabungkan Kelebihan Compiler Dan Interpreter
+
+Cara Kerja Hybrid
+[source code ==> compile ==> intermediate language / byte code ==> (just in time)JIT compilation(fungsinya mengcompile sambil menjalanka isi source codenya)]
+
+Bahasa-bahasa Pemograman Yang Biasanya Memakai Hybrid
+[Java, VB.NET, Python, .....]

@@ -1,0 +1,126 @@
+Judul Operator
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jenis-jenis Operator
+
+-aritmatika(javascript arithmetic operators)
+-penugasan(javascript assignment operators)
+-perbandingan(javascript comparison operators)
+-logika(javascript logical operators)
+-string(javascript string operators)
+-kondisional(javascript conditional operators)
+-typeof
+
+Operator binary = [aritmatika, penugasan, perbandingan, logika, string]
+Operator binary membutuhkan 2 Operand
+Contohnya {
+ Operand1 Operator Operand2
+    1        +        1
+}
+
+Operator ternary = [kondisional]
+Operator ternary membutuhkan 3 Operand {
+     kondisi    ?  true   :  false
+ ( x  % 2 == 0) ? 'genap' : 'ganil'
+}
+
+Operator unary = [typeof]
+Operator unary membutuhkan 1 Operand
+Contohnya {
+  Operator Operand
+        atau
+  Operand Operator
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Aritmatika(arithmetic)
+Contoh Operator Aritmatika [+, -, *, /, %]
+  %(memiliki arti sisa bagi)
+  Contohnya {
+    10 % 2 = 0
+    10 % 3 = 1
+  }
+Operator Precedence(urutan operasi matematika) yang disebut KUKABATAKU,
+KUKABATAKU(kurung(()), kali(*), bagi(/), tambah(+), kurang(-)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Penugasan(assignment)
+Penugasan biasanya digunakan saat penulisan variabel
+Contoh Operator Penugasan [=, =+, =-, =/, =*, =%]
+ {
+  var x = y    artinya x ditimpa oleh y
+  var x += y   artinya x = x + y
+  var x -= y   artinya x = x - y
+  var x /= y   artinya x = x / y
+  var x *= y   artinya x = x * y
+  var x %= y   artinya x = x % y
+ }
+ 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+Perbandingan(comparison)
+Contoh Operator Perbandingan [==, !=, ===, !==, >, <, >=, <=] 
+{
+  ==    berarti   sama dengan
+  !=    berarti   tidak sama dengan
+  ===   berarti   strict sama dengan(untuk perbandingan string berisi angka)
+  !==    berarti  strict tidak sama dengan (untuk perbandingan string berisi angka)
+  <     berarti   lebih kecil dari
+  >     berarti   lebih besar dari
+  <=    berarti   lebih kecil sama dengan
+  >=    berarti   lebih besar sama dengan
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Logika(logika)
+
+Contoh Operator Logika [&&, ||, !]
+{
+  &&(dan) semua kondisi harus bernilai true untuk menghasilkan boolean true, dan jika salah satu kondisi bernilai false maka boolean yang dihasilkan adalah false
+
+  ||(atau) asal salah satu kondisi menghasilkan nilai true maka boolean yang dihasilkan adalah true, dan jika semua kondisi bernilai false maka baru boolean yang dihasilkan adalah false
+  
+  !(tidak) kegunaannya untuk membuat nilai false menjadi true dan begitu pula sebaliknya merubah nilai true manjadi false
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+String
+
+Jika Operandnya Angka Maka (+) Menjadi Operator Aritmatika, Dan Jika Operandnya String(tulisan) Maka (+) Menjadi Operator konkatenasi(concatenation)
+Contoh Operator String [+]
+{
+  var a = 'apple'
+  var b = 'pen'
+  var c = a + b
+  var c = 'applepen'(jika ingin ada jarak diantara Stringnya syntax a + ' ' + b = 'apple pen')
+ 
+  10 + "10" = "1010"
+  "10" + 10 = "1010"
+  10 + 10 + "10" = "2010"
+  "10" + 10 + 10 = "101010"
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kondisional(conditional)
+
+Contohnya  {
+     kondisi    ?  true   :  false
+ ( x  % 2 == 0) ? 'genap' : 'ganil'
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Typeof
+
+Untuk mengetahui tipe data dari suatu nilai
+Contohnya {
+  typeof(10) = Number
+  typeof('wosh') = String
+  typeof(true) = Boolean
+}

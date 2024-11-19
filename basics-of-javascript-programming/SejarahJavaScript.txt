@@ -1,0 +1,84 @@
+Judul Sejarah Javascript
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Perkembangan Javascript
+
+-1997, ES1(pertama kali dipatenkan)
+-1998, ES2(ECMAScript version 2)
+-1999, ES3 launch(sudah bisa digunakan oleh berbagai macam web browser)
+-2005, AJAX
+-2008, ES4 GAGAL(dibuat ulang dengan project bernama ES Harmony)
+-2009, ES5(tahun mulai munculnya framework-framework)
+ •default(memperbaiki ES3)
+ •strict(fitur-fitur baru yang ditambah)
+-2015, ES6(ECMAScript version 6)
+-2016, ES7(ECMAScript version 7)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Penemu Javascript
+ namanya adalah Brendan Eich
+
+Evolusi Nama Dari Javascript
+ Mocha(dibuat hanya dalam 10 hari) ==>
+ Livescript ==> Javascript ==> ECMAScript
+ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Alasan Belajar Javascript
+
+-gratis(kita tidak perlu membeli softwarenya, licensenya, atau serial numbernya)
+-tidak perlu instalasi(karna ditiap-tiap browser sudah memiliki javascript didalamnya atau kita sebut engine atau interpreter javascript)
+-hanya butuh web browser
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tingkat Kesulitan Belajar Bahasa Pemograman
+
+bahasa mesin ==> bahasa assembly ==> low level language[C, C++, .....] ==> high level language[Javascript, Actionscript, .....](semakin tinggi level bahasanya semakin mudah untuk dipelajari)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kategori Bahasa Pemograman Berdasarkan Caranya Mengelola Tipe Data : Typed Dan Untyped
+
+-typed(harus mendeklarasikan tipe datanya)
+ •contoh sintaks penulisannya
+  {
+  int x =;
+  x = 10;
+  }
+ •bahasa Pemograman tipe typed[C, .....]
+
+-untyped / dynamically typed(tidak perlu mendeklarasikan tipe datanya variabelnya bisa diisi menggunakan integer, string, boolean, .....)
+ •contoh sintaks penulisannya
+  {
+  var x = 10;
+  var x = 'Javascript';
+  }
+ •bahasa Pemograman tipe untyped[Javascript, .....]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kegunaan Javascript
+
+-client side development(front-end development)
+ •native javascript / vanilla javascript(javascript yang tidak menggunakan libraries atau framework)
+ •JQuery, angular js, react js, ember, backbone, .....(libraries dan framework yang digunakan untuk mempermudah / mempercepat penulisan javascript)
+ 
+-server-side development(back-end development)
+ •node js, express js, .....(libraries yang membuat javascript bisa berjalan di servernya sendiri)
+
+-membuat browser extension / add-on
+
+-membuat desktop application
+ •electron, appjs(frameworknya)
+ 
+-mobile app development
+ •JQuery mobile, cordova / phonegap(frameworknya)
+ 
+-robotics & IOT(internet of things)
+ •cyclonjs, johnny-five(frameworknya)
+
+JSON(javascript object notation)
+ •digunakan untuk pertukaran data

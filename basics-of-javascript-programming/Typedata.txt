@@ -1,0 +1,106 @@
+Judul Tipe Data Dan Operator
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jenis-jenis Tipe Data(Data Types) Pada Javascript
+
+-number
+-string
+-boolean
+-object
+-function
+-undefined
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+variable adalah sebuah tempat/wadah untuk menyimpan suatu nilai(value)
+
+    var    (nama variable) =     11;
+(deklarasi) (inisialisasi) = (assignment)
+
+shorthand penulisan variable
+var nama = 'kardtzy',
+    umur = 18,
+    hobi = 'ngoding';
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Number(angka)
+
+Jenis-jenis Angka Yang Bisa Disimpan Pada Javascript
+
+-bisa menyimpan angka tanpa desimal(maksimal 15 digit jika lebih dari 15 angka akan dibulatkan)
+ contoh angkanya 2,11,22
+
+-bisa menyimpan angka desimal(tanda(,) diganti dengan tanda(.), dan juga maksimal hanya bisa menyimpan 17 digit angka dibelakang koma)
+ (Hati-hati menjumlahkan bilangan pecahan karena biasanya hasilnya tidak terlalu akurat)
+ contoh angkanya 3.14, 20.00, 11.2
+ 
+-menyimpan bilangan eksponen
+ contoh angkanya
+ 11e5 = 1100000
+ 11e-5 = 0,00011
+ 
+-menyimpan bilangan negatif
+ contoh angkanya -2, -11, -22
+ 
+-angka spesial
+ •Infinity
+ contohnya 2 / 0 = Infinity
+ •-Infinity
+ contohnya -2 / 0 = -Infinity
+ •NaN(Not a Number)
+ contohnya 10 / 'string' = NaN,
+            0 / 0 = NaN,
+           100 / '10' = 10(jika yang didalam string berupa angka maka angkanya tetap dianggap)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+String
+
+string pada Javascript biasanya memperesentasikan data tekstual(plain text), untuk menuliskan string pada Javascript kita hanya perlu membungkus data(subject) menggunakan '',""
+
+contohnya {
+  'kardi'
+  "yansah"
+}
+'nama string'.length(untuk menghitung jumlah huruf(character) yang ada dalam string tanda spasi( ) juga dihitung)
+escape character {
+  \0   =   karakter NULL
+  \'   =   '
+  \'   =   "
+  \\   =   \
+  \n   =   new line(baris baru)
+  \t   =   tab
+  \b   =   backspace
+  \uxxxx(unicode) {
+    '\u00A9'    =    ©
+    '\u00AE'    =    ®
+    '\u00B1'    =    ±
+    '\u00B5'    =    µ
+    '\u2122'    =    ™
+  }
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Boolean
+
+sebuah tipe data yang digunakan untuk memperesentasikan logika true atau false
+
+penciptanya bernama : George boole
+
+biasanya digunakan pada statement pengkondisian, untuk mengatur alur kendali program
+
+Boolean( 10 < 20 ) = true
+Boolean( 10 ) = true
+Boolean( 0 ) = false
+
+nilai-nilai truthy or falsy
+-truthy[true, non-zero number(semua angka kecuali nol), 'kardtzy', object, arrays, functions]
+
+-falsy[false, 0, ''(string kosong), undefined, null, NaN]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
