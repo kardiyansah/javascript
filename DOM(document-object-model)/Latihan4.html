@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css" media="all">
+        
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            text-align: center;
+        }
+        
+        .box {
+            width: 25px;
+            height: 25px;
+            margin: 20px auto;
+        }
+        
+        .red { background-color: red; }
+        .green { background-color: green; }
+        .blue { background-color: blue;}
+        
+        .cPurple {
+            background-color: purple;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan DOM</title>
+</head>
+<body>
+    <h1>Play With Colors</h1>
+    <button type="button" id="bChangeColor">
+        Change Color
+    </button>
+    
+    <br /><br />
+    
+    <div class="box red"></div>
+    <input type="range" name="sRed" min="0" max="255" />
+    <div class="example"></div>
+   
+    <div class="box green"></div>
+    <input type="range" name="sGreen" min="0" max="255" />
+    <div class="example"></div>
+    
+    <div class="box blue"></div>
+    <input type="range" name="sBlue" min="0" max="255" />
+    <div class="example"></div>
+    
+<script src="DOMColorManipulation.js"></script>
+</body>
+</html>

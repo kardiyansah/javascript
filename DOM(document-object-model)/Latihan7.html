@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <style type="text/css" media="all">
+        
+        * {
+            margin: 0;
+            padding: 0;
+            line-height: 0;
+        }
+        
+        body {
+            background-color: #bbb;
+            text-align: center;
+        }
+        
+        .container {
+            width: 300;
+            margin: 15px auto;
+            margin-top: 35%;
+            border: 2px solid white;
+            overflow: auto;
+        }
+        
+        .jumbo {
+            border: 1px solid white;
+            box-sizing: border-box;
+        }
+        
+        .thumbail .thumb {
+            width: 100px;
+            height: 60px;
+            float: left;
+            border: 1px solid white;
+            box-sizing: border-box;
+            filter: grayscale(100%);
+        }
+        
+        .thumbail .thumb:hover {
+            opacity: 0.5;
+            cursor: pointer;
+            filter: grayscale(0%);
+        }
+        
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .fade {
+            opacity: 0;
+            animation: fadeIn 0.9s forwards;
+        }
+        
+        .active {
+            opacity: 0.5;
+            filter: grayscale(0%);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <img class="jumbo" src="img/1.jpg" alt="Pemandangan"/>
+        <div class="thumbail">
+            
+            <img class="thumb" src="img/1.jpg" />
+            <img class="thumb" src="img/2.jpg" />
+            <img class="thumb" src="img/3.jpg" />
+            <img class="thumb" src="img/4.jpg" />
+            <img class="thumb" src="img/5.jpg" />
+            <img class="thumb" src="img/6.jpg" />
+            
+            
+        </div>
+    </div>
+
+
+<script src="SlideShow.js"></script>   
+</body>
+</html>

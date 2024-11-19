@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css" media="all">
+   
+    * {
+      border: 2px solid #dedede; 
+      padding: 15px; 
+      margin: 15px; 
+    }
+    
+    html { 
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      max-width: 600px;
+      margin: 30px auto;
+      font-family: sans-serif;
+      color: #fff;
+      text-align: center;
+      background-image: url('img/yun.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .blue {
+      background: skyblue;
+      color: purple;
+    }
+    
+    .special {
+      color: red;
+      background: #000;
+      box-shadow: 0 0 9px 8px rgba(82, 25, 85);
+    }
+    
+    .case {
+      color: #fff;
+      background-color: #000;
+      text-shadow: 2px 2px 4px red, 4px 4px 6px rgba(26, 189, 77);
+      box-shadow: inset 0 0 9px 5px rgba(40, 128, 11, 0.6), 0 0 9px 8px rgba(82, 25, 85, 0.9);
+    }
+    
+    /* section#b p { color: red; }
+    section#b ul li:nth-child(2) {
+      color: purple;
+    } */
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+  <h1 id="judul">Hello World</h1>
+  <div class="container">
+    <section id="a">
+      <p class="p1">Ini Paragraf 1</p>
+      <a href="#" class="link">Kardtzy</a>
+      <p class="p2">Ini Paragraf 2</p>
+      <p class="p3" ondblclick="changeColor()">Ini Paragraf 3</p>
+    </section>
+    <section id="b">
+      <p class="p4">Ini Paragraf 4</p>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </section>
+  </div>
+  
+<script src="DOMEvents.js"></script>
+</body>
+</html>
