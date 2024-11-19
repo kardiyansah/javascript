@@ -15,32 +15,32 @@
 
 // 2. Function Declaration
 // PROBLEM : 
-const comicMethods = {
-    setTitle: function(newTitle) {
-        this.title = newTitle;
-    },
+// const comicMethods = {
+//     setTitle: function(newTitle) {
+//         this.title = newTitle;
+//     },
     
-    setWriter: function(newWriter) {
-        this.writer = newWriter;
-    }
-}
+//     setWriter: function(newWriter) {
+//         this.writer = newWriter;
+//     }
+// }
 
-function comic(title, writer) {
-    // cara baru
-    // mirip inheritance pada php
-    const comic = Object.create(comicMethods);
-    comic.title = title;
-    comic.writer = writer;
+// function comic(title, writer) {
+//     // cara baru
+//     // mirip inheritance pada php
+//     const comic = Object.create(comicMethods);
+//     comic.title = title;
+//     comic.writer = writer;
 
-    // cara lama
-    // comic.setTitle = comicMethods.setTitle;
-    // comic.setWriter = comicMethods.setWriter;
+//     // cara lama
+//     // comic.setTitle = comicMethods.setTitle;
+//     // comic.setWriter = comicMethods.setWriter;
 
-    return comic;
-}
+//     return comic;
+// }
 
-let naruto = comic('Naruto', 'Masashi Kishimoto');
-let onePiece = comic('One Piece', 'Eiichiro Oda');
+// let naruto = comic('Naruto', 'Masashi Kishimoto');
+// let onePiece = comic('One Piece', 'Eiichiro Oda');
 
 
 // 3. Constructor Function

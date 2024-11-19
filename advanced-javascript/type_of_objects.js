@@ -35,15 +35,15 @@
 
 // 3. Constructor Function
 // Sama seperti membuat object menggunakan function declaration tapi menggunakan keyword new, dan tidak perlu mendeklarasikan object dan returnya
-function book(title, writer) {
-    this.title = title;
-    this.writer = writer;
+// function book(title, writer) {
+//     this.title = title;
+//     this.writer = writer;
 
-    this.setTitle = function(newTitle) {
-        this.title = newTitle;
-    }
-}
+//     this.setTitle = function(newTitle) {
+//         this.title = newTitle;
+//     }
+// }
 
 
-let atomicHabits = new book('Atomic Habits', 'James clear');
-console.log(atomicHabits);
+// let atomicHabits = new book('Atomic Habits', 'James clear');
+// console.log(atomicHabits);
