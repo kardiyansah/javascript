@@ -1,0 +1,20 @@
+[
+    {
+        "name": "John Doe",
+        "age": 28,
+        "major": "Magic",
+        "address": "Magic Academy"
+    },
+    {
+        "name": "Victor",
+        "age": 2100,
+        "major": "Martial Arts",
+        "address": "NIghtingale"
+    },
+    {
+        "name": "Naruto",
+        "age": 28,
+        "major": "Ninjutsu",
+        "address": "Konohagakure"
+    }
+]
